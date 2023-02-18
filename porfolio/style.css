@@ -1,0 +1,347 @@
+body{
+	background-color: rgb(12,12,12);
+}
+
+.navbar a{
+	color: rgb(149,156,155);
+	font-weight: 400px;
+	font-family: 'Poppins';
+	font-size: 18px;
+	line-height: 32px;
+	text-decoration: none;
+	margin-left: 50px;
+}
+
+.navbar{
+	margin-left: 100px;
+}
+
+#userIcon{
+	position: absolute;
+}
+
+/*.contact-btn{
+	margin-left: 400px;
+	font-size: 18px;
+	color: rgb(0,83,71);
+	font-weight: 400px;
+	font-size: 18px;
+	line-height: 32px;
+	background-color: rgb(29,221,188);
+	border: none;
+	border-radius: 5px;
+	padding: 5px 20px 5px 20px;
+	cursor: pointer;
+}*/
+
+.main-content{
+	margin-top: 100px;
+	margin-left: 150px;
+	padding: 10px;
+}
+
+.content-img img{
+	float: left;
+	margin-right: 150px;
+	border-radius: 3px;
+}
+
+.subheading{
+	color: white;
+	font-size: 18px;
+	font-family: 'Poppins';
+	line-height: 32px;
+	color: #42C3A7;
+}
+
+.heading{
+	font-size: 40px;
+	line-height: 32px;
+	color: #42C3A7;
+	font-family: 'Poppins';
+}
+
+.heading span{
+	color: white;
+	font-size: 40px;
+	font-family: 'Poppins';
+}
+
+.content-para{
+	color: rgb(149,156,155);
+}
+
+
+
+
+/*.download-btn{
+	outline: 3px solid #42C3A7;
+	background-color: rgb(12,12,12);
+	color: #42C3A7;
+	text-transform: uppercase;
+	padding: 5px 20px 5px  20px;
+}*/
+
+
+/*Download btn */
+.cssbuttons-io-button {
+ display: flex;
+ align-items: center;
+ font-family: 'Poppins';
+ font-weight: 500;
+ font-size: 17px;
+ padding: 0.8em 1.5em 0.8em 1.2em;
+ color: rgb(0,83,71);
+ background: #ad5389;
+ background: linear-gradient(0deg, rgba(12,12,12,1) 0%, rgba(12,12,12,1) 100%);
+ border: none;
+ box-shadow: 0 0.7em 1.5em -0.5em #42C3A7;
+ letter-spacing: 0.05em;
+ border-radius: 20em;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+
+.cssbuttons-io-button svg {
+ margin-right: 8px;
+}
+
+.cssbuttons-io-button:hover {
+ box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+}
+
+.cssbuttons-io-button:active {
+ box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+}
+
+/*contuct btn*/
+
+button {
+ position: relative;
+ padding: 1em 1.8em;
+ outline: none;
+ border: 1px solid #303030;
+ background: #212121;
+ color: #42C3A7;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-size: 15px;
+ overflow: hidden;
+ transition: 0.2s;
+ border-radius: 20px;
+ cursor: pointer;
+ font-weight: bold;
+ margin-left: 400px;
+}
+
+button:hover {
+ box-shadow: 0 0 10px #42C3A7, 0 0 25px #42C3A7, 0 0 50px #42C3A7;
+ transition-delay: 0.6s;
+}
+
+button span {
+ position: absolute;
+}
+
+button span:nth-child(1) {
+ top: 0;
+ left: -100%;
+ width: 100%;
+ height: 2px;
+ background: linear-gradient(90deg, transparent, #42C3A7);
+}
+
+button:hover span:nth-child(1) {
+ left: 100%;
+ transition: 0.7s;
+}
+
+button span:nth-child(3) {
+ bottom: 0;
+ right: -100%;
+ width: 100%;
+ height: 2px;
+ background: linear-gradient(90deg, transparent, #42C3A7);
+}
+
+button:hover span:nth-child(3) {
+ right: 100%;
+ transition: 0.7s;
+ transition-delay: 0.35s;
+}
+
+button span:nth-child(2) {
+ top: -100%;
+ right: 0;
+ width: 2px;
+ height: 100%;
+ background: linear-gradient(180deg, transparent, #42C3A7);
+}
+
+button:hover span:nth-child(2) {
+ top: 100%;
+ transition: 0.7s;
+ transition-delay: 0.17s;
+}
+
+button span:nth-child(4) {
+ bottom: -100%;
+ left: 0;
+ width: 2px;
+ height: 100%;
+ background: linear-gradient(360deg, transparent, #42C3A7);
+}
+
+button:hover span:nth-child(4) {
+ bottom: 100%;
+ transition: 0.7s;
+ transition-delay: 0.52s;
+}
+
+button:active {
+ background: #ae00af;
+ background: linear-gradient(to top right, #42C3A7, #42C3A7);
+ color: white;
+ box-shadow: 0 0 8px #42C3A7, 0 0 8px #42C3A7, 0 0 8px #42C3A7;
+ transition: 0.1s;
+}
+
+button:active span:nth-child(1) 
+span:nth-child(2) 
+span:nth-child(2) 
+span:nth-child(2) {
+ transition: none;
+ transition-delay: none;
+}
+
+/*loader btn*/
+
+.loader {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 25px 75px rgba(0,0,0,0.55);
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader::before {
+  content: '';
+  position: absolute;
+  inset: 20px;
+  background: transparent;
+  border: 1px dashed#444;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 25px rgba(0,0,0,0.25),
+  inset 5px 5px 35px rgba(0,0,0,0.25);
+}
+
+.loader::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px dashed#444;
+  box-shadow: inset -5px -5px 25px rgba(0,0,0,0.25),
+  inset 5px 5px 35px rgba(0,0,0,0.25);
+}
+
+.loader span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  transform-origin: top left;
+  animation: radar81 2s linear infinite;
+  border-top: 1px dashed #fff;
+}
+
+.loader span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: seagreen;
+  transform-origin: top left;
+  transform: rotate(-55deg);
+  filter: blur(30px) drop-shadow(20px 20px 20px seagreen);
+}
+
+@keyframes radar81 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*animated card*/
+
+.card {
+  height:350px ;
+  width:250px;
+  background: #07182E;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  float: left; 
+  margin-right: 150px;
+}
+
+.card img {
+  z-index: 1;
+  width: 238px;
+  height: 338px;
+  border-radius: 10px;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 130%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  background: #07182E;
+  ;
+  inset: 5px;
+  border-radius: 15px;
+}  
+/* .card:hover:before {
+  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+  animation: rotBGimg 3.5s linear infinite;
+} */
+
+
